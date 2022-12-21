@@ -25,12 +25,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "usageInfo",
-        message: "How will install the application?be used?",
-    },
-    {
-        type: "input",
-        name: "useInfo",
-        message: "How will install the application?be used?",
+        message: "How will the installed  application be used?",
     },
     {
         type: "input",
@@ -53,6 +48,16 @@ inquirer.prompt([
             "BSD 2-Clause Simplified License",
             "BSD 3-Clause New or Revised License",
         ],
+    },
+    {
+        type: "input",
+        name: "gitHub",
+        message: "What is your gitHub username?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your E-mail?",
     },
 ]);
 
