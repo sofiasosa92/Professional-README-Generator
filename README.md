@@ -6,4 +6,4 @@ to help describe and explain to the user any coding project.
 
 Deployed link:
 
-[Screencastify](www.screencastify.com)
+[Generator Demo](www.screencastify.com)
