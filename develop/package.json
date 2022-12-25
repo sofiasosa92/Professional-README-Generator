@@ -1,5 +1,5 @@
 {
-  "name": "README",
+  "name": "Professional README Generator",
   "version": "1.0.0",
   "description": "I will be creating a professional README using node.js and html to display the generator. A user will be able to provide information easily through the command line.",
   "main": "index.js",

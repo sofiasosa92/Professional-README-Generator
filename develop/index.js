@@ -29,12 +29,12 @@ const questions = () =>
             type: "list",
             name: "installation",
             message: "How will install the application?",
-            choices: ["Terminal", "other"]
+            choices: ["Terminal", "other"],
         },
         {
             type: "input",
             name: "usageInfo",
-            message: "How will the installed  application be used?",
+            message: "How will the installed application be used?",
         },
         {
             type: "input",
@@ -93,7 +93,6 @@ function generateMarkdown(data) {
 
 return `# ${data.name}  
     
-${data.description}
 ## Table of Contents:
     
 * [Description](#Description)
@@ -104,20 +103,22 @@ ${data.description}
 * [License](#license)
 * [GitHub](#github)
 * [Email](#email)
-* [Questions](#questions)
+* [Questions?](#questions)
 
+### Description:
+${data.description}
 ### Installation:
-In order to install the necessary dependencies, open the console and run the following:
-\`\`\`${data.installations}\`\`\`
+${data.installation}
 ### Usage:
-${data.usage}
+${data.usageInfo}
+### Credits:
+${data.credits}
+### link:
+${data.link}
 ### License:
-This project is licensed under:
 ${data.license} 
 ${badge}
-### Contributing:
-${data.contribute}
-### Questions:
+### Questions?:
 If you have any questions contact me on [GitHub](https://github.com/${data.github}) or contact 
 ${data.author} at ${data.email}  
      `
