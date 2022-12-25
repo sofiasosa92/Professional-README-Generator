@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown');
 
+//terminal messages
 console.log("Welcome to my README generator")
 console.log("Answwer the following questions to generate a high quality README for your project")
 
@@ -71,6 +72,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
+        
         console.log("Success! You can now preview your README file");
     });
 };
