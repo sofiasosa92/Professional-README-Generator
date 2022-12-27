@@ -1,4 +1,4 @@
-# Professional README  
+# Professional README Generator  
     
 ## Table of Contents:
     
@@ -13,19 +13,19 @@
 * [Questions?](#questions)
 
 ### Description:
-to practice
+To create a professinal README
 ### Installation:
 Terminal
 ### Usage:
-in terminal 
+through terminal
 ### Credits:
-sofia 
+Sofia
 ### link:
-google.com
+https://github.com/sofiasosa92/Professional-README-Generator
 ### License:
-BSD 3 
-![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+MIT 
+![PyPi license](https://badgen.net/pypi/license/pip/)
 ### Questions?:
 If you have any questions contact me on [GitHub](https://github.com/undefined) or contact 
-Sofia  at ssosa@aol.com  
+Sofia Sosa  at ssosa@ssisd.net  
      
