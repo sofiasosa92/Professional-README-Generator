@@ -13,19 +13,19 @@
 * [Questions?](#questions)
 
 ### Description:
-To create a professinal README
+It is made for the user to create a professional README
 ### Installation:
-Terminal
+node.js
 ### Usage:
-through terminal
+ thorugh the command line
 ### Credits:
-Sofia
+Sofia 
 ### link:
 https://github.com/sofiasosa92/Professional-README-Generator
 ### License:
-MIT 
-![PyPi license](https://badgen.net/pypi/license/pip/)
+BSD 3 
+![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
 ### Questions?:
 If you have any questions contact me on [GitHub](https://github.com/undefined) or contact 
-Sofia Sosa  at ssosa@ssisd.net  
+Sofia  at sofiasosaperez@outlook.com  
      

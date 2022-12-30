@@ -28,8 +28,9 @@ const questions = () =>
         {
             type: "list",
             name: "installation",
-            message: "How will install the application?",
-            choices: ["Terminal", "other"],
+            message: "How will your application be installed?",
+            choices: ["Terminal",
+            "node.js", "other"],
         },
         {
             type: "input",
@@ -131,5 +132,3 @@ questions()
     .catch((err) => console.log(err));
 
 
-
-// // TODO: Create a function to initialize app
