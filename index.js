@@ -128,7 +128,5 @@ ${data.author} at ${data.email}
 // TODO: Create a function to write README file
 questions()
     .then((data) => writeFileAsync('README.md', generateMarkdown(data)))
-    .then(() => console.log("Success! You can now preview your README file"))
-    .catch((err) => console.log(err));
-
+    .then(() => console.log("Success! You can now preview your README file"));
 
